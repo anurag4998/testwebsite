@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html>
+    <head>
+
+        <title>
+         SWEET BITE         
+        </title>
+        <link rel = "stylesheet" href ="web1.css">
+        
+    </head>
+
+    <body>
+
+        
+        <header>
+            <nav>
+                <ul>
+                    <li class ="logo"><a href="index.html">Logo</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Items.html">ITEMS</a></li>
+                    <li>
+                        <div class="wrap">
+                            <div class="search">
+                               <input type="text" class="searchTerm" placeholder="Search for products...">
+                               <button type="submit" class="searchButton">
+                                 <i class="fa fa-search"></i>
+                              </button>
+                            </div>
+                         </div>
+                    </li>
+                    <li id="basketlogo"><a href="cart.html"> CONTACT US</a></li>
+                    <li><a href="cart.html">MY CART</a></li>
+      
+                 </ul>
+    
+            </nav>
+        </header>
+    <section>
+
+        <h2>YOUR BASKET</h2>
+        <hr width = 80%>
+     <div id="cart">
+        <div class="itemdescription">
+            <ul>
+                <li style="width:412px">ITEM DESCRIPTION</li>
+                <li>UNIT PRICE</li>
+                <li>QUANTITY</li>
+                <li>SUBTOTAL</li>
+
+            </ul>
+        
+        </div>
+        <div class="products">
+
+        </div>
+
+    </section>       
+    
+    
+
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAeTeEoSSxzeG08_wWxphSsDBHtYWqm8mQ",
+    authDomain: "newtrolleymanager.firebaseapp.com",
+    databaseURL: "https://newtrolleymanager.firebaseio.com",
+    projectId: "newtrolleymanager",
+    storageBucket: "newtrolleymanager.appspot.com",
+    messagingSenderId: "965471042365",
+    appId: "1:965471042365:web:fa2b68673267012908a354",
+    measurementId: "G-DCEH6DHSMQ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src = "./app.js"> </script>
+    </body>
+</html>
