@@ -1,0 +1,30 @@
+{
+  "name": "cart",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anurag4998/testwebsite.git"
+  },
+  "author": "Anurag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anurag4998/testwebsite/issues"
+  },
+  "homepage": "https://github.com/anurag4998/testwebsite#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "install": "^0.13.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}

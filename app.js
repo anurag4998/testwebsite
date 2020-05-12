@@ -23,6 +23,7 @@ function displaycartrice()
     let productcontainer = document.querySelector(".products")
     productcontainer.innerHTML = 
     `
+    <div class = "rice" >
     <ul>
         <li style="width:412px">Basmati Rice</li>
         <li> 100 </li>
@@ -32,7 +33,7 @@ function displaycartrice()
             <button class ="decrement" > - </button>
         <li>
     </ul>         
-       `
+    </div>   `
 
 
 
@@ -40,9 +41,10 @@ function displaycartrice()
 
 function displaycartsugar()
 {
-    let productcontainer = document.querySelector(".cart")
+    let productcontainer = document.querySelector(".products")
     productcontainer.innerHTML = 
     `
+    <div class = "sugar" >
     <ul>
         <li style="width:412px">Brown Sugar</li>
         <li> 100 </li>
@@ -52,5 +54,6 @@ function displaycartsugar()
             <button class ="decrement" > - </button>
         <li>
     </ul>         
-       `
+  </div> 
+ `
 }
