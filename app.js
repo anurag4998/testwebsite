@@ -72,7 +72,7 @@ function checkrice()
         
         var li = document.createElement('li');
         const content2 = document.getElementById("cartrow");
-        li.style.width = '412px'
+        li.style.width = '380px'
         li.textContent = 'Daawat Rozana Super Basmati Rice';
         content2.appendChild(li);
        
@@ -89,7 +89,7 @@ function checkrice()
         var input = document.createElement('text')
         var button2 = document.createElement('button');
       
-        
+        li.style.paddingLeft = '30px'
         input.setAttribute('id', "input")
         
 
@@ -169,7 +169,7 @@ function checksugar()
 
     var li =  document.createElement('li');
     li.innerText = 'Parry Brown Sugar'
-    li.style.width = '412px'
+    li.style.width = '380px'
     content.appendChild(div).appendChild(ul).appendChild(li)
 
     var li =  document.createElement('li');
@@ -181,7 +181,7 @@ function checksugar()
     var input = document.createElement('text')
     var button2 = document.createElement('button');
     var li = document.createElement('li');
-    
+    li.style.paddingLeft = '30px'
     input.setAttribute('id', "input1")
 
 

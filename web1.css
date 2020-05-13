@@ -28,16 +28,11 @@ nav ul li
 section
 {
     height:600px;
-    margin-top: 50px;
 }
 section h2
 {
     text-align: left;
     margin:60px 0 0 160px;
-}
-.rowcontent
-{
-    margin-top:50px;
 }
 .itemdescription
 {
@@ -49,7 +44,7 @@ section h2
 section ul li
 {
     display: inline-block;
-    margin: 10px 140px 0 0;
+    margin: 10px 130px 0 0;
     color:#fff;
 }
 
@@ -63,7 +58,7 @@ section ul li
 
 #cartitem ul li
 {
-    margin: 20px 160px 0px 10px;
+    margin: 20px 130px 0px 10px;
     color:#333;
     font-family: Celias,Helvetica;
     height: 20px;
